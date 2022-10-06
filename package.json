@@ -1,0 +1,19 @@
+{
+  "name": "2022-w-ch4-marcos-bonet",
+  "version": "1.0.0",
+  "description": "challenger 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosbonet/2022-W-CH4-marcos-bonet.git"
+  },
+  "author": "marcos bonet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosbonet/2022-W-CH4-marcos-bonet/issues"
+  },
+  "homepage": "https://github.com/marcosbonet/2022-W-CH4-marcos-bonet#readme"
+}
