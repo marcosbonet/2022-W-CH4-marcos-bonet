@@ -1,3 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Splash&display=swap");
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
 
+html body {
+  font-family: "Nunito", sans-serif;
+  min-hight: 100vh;
+}
+
+.buynow {
+  padding: 1%;
+  height: 15vh;
+  border: #EE6436 solid 2px;
+  border-radius: 0% 30% 30% 30%;
+}
+
+header {
+  min-width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 1px 6px gray;
+}
+
+header a a {
+  display: flex;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+main p {
+  display: inline-block;
+  font-weight: 800;
+  color: #EE6436;
+  font-size: 2rem;
+  margin: 2%;
+  justify-content: space-between;
+}
+
+main div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+main div p:nth-child(2) {
+  background-color: #EE6436;
+  padding: 1%;
+  height: 15vh;
+  color: white;
+  border-radius: 0% 30% 30% 30%;
+}
+
+.pic1::before {
+  content: "correr";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.039);
+}
+
+h2 {
+  display: flex;
+  font-weight: 800;
+  margin: 2%;
+  font-size: 5rem;
+}
+
+main div:nth-of-type(2) {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  display: flex;
+  margin: 1rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
